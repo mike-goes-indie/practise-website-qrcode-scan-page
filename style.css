@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Outfit:wght@400;700&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%) ;
+    margin:0;
+    height:100vh;
+    overflow:hidden;
+}
+ 
+.qrcode-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50% ,-50%);
+    width: 290px;
+    height: 72%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.qrcode-container img{
+    margin: 15px 15px 17px 15px;
+    height:260px;
+    width:260px;
+    border-radius: 10px;
+    object-fit: contain;
+}
+.qrcode-container .text{
+    
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.qrcode-container .text h3{
+    margin-top: 0;
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+    margin-bottom: 13px;
+    
+}
+.qrcode-container .text p{
+    margin-top: 0;
+    color: hsl(220, 15%, 55%);
+    font-size: 14px;
+    font-weight: 400;
+}
